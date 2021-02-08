@@ -52,26 +52,17 @@ form {
     max-width: 400px;
     margin: 20px auto;
     background-color: rgb(223, 223, 223);
-    border-radius: 4px;
-    ;
+    border-radius: 8px;
 }
 
 input {
-    width: 90%;
+    width: 87.1%;
     padding: 10px;
     border-radius: 4px;
     border: none;
     outline: none;
     font-size: 2rem;
     background-color: rgb(223, 223, 223);
-    display: inline-block;
-}
-
-form icon {
-    width: 8%;
-    font-size: 3rem;
-    margin-bottom: -8px;
-    color: rgb(75, 75, 75);
     display: inline-block;
 }
 
@@ -107,4 +98,16 @@ form icon {
     margin: 20px 10px 0 0;
     font-weight: 400;
     align-items: center;
+    font-size: 20px;
+    text-align: center;
+}
+
+#submit {
+    padding: 10px 16px;
+    background-color: #3b2d64;
+    color: aliceblue;
+    border: none;
+    outline: none;
+    border-radius: 8px;
+    font-size: 15px
 }
